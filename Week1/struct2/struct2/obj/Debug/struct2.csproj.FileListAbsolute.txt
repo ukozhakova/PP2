@@ -1,0 +1,7 @@
+C:\Users\Asus\source\repos\struct2\struct2\obj\Debug\struct2.csprojResolveAssemblyReference.cache
+C:\Users\Asus\source\repos\struct2\struct2\obj\Debug\struct2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\struct2\struct2\bin\Debug\struct2.exe.config
+C:\Users\Asus\source\repos\struct2\struct2\bin\Debug\struct2.exe
+C:\Users\Asus\source\repos\struct2\struct2\bin\Debug\struct2.pdb
+C:\Users\Asus\source\repos\struct2\struct2\obj\Debug\struct2.exe
+C:\Users\Asus\source\repos\struct2\struct2\obj\Debug\struct2.pdb

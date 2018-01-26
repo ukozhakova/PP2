@@ -1,0 +1,6 @@
+C:\Users\Asus\source\repos\Copy FIle\Simple File Delete\bin\Debug\Simple File Delete.exe.config
+C:\Users\Asus\source\repos\Copy FIle\Simple File Delete\bin\Debug\Simple File Delete.exe
+C:\Users\Asus\source\repos\Copy FIle\Simple File Delete\bin\Debug\Simple File Delete.pdb
+C:\Users\Asus\source\repos\Copy FIle\Simple File Delete\obj\Debug\Simple File Delete.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Copy FIle\Simple File Delete\obj\Debug\Simple File Delete.exe
+C:\Users\Asus\source\repos\Copy FIle\Simple File Delete\obj\Debug\Simple File Delete.pdb

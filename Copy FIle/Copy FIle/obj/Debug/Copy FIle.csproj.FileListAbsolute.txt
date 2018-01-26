@@ -1,0 +1,7 @@
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\bin\Debug\Copy FIle.exe.config
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\bin\Debug\Copy FIle.exe
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\bin\Debug\Copy FIle.pdb
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\obj\Debug\Copy FIle.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\obj\Debug\Copy FIle.exe
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\obj\Debug\Copy FIle.pdb
+C:\Users\Asus\source\repos\Copy FIle\Copy FIle\obj\Debug\Copy FIle.csprojResolveAssemblyReference.cache

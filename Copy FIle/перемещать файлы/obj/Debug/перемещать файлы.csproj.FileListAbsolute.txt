@@ -1,0 +1,7 @@
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\bin\Debug\перемещать файлы.exe.config
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\bin\Debug\перемещать файлы.exe
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\bin\Debug\перемещать файлы.pdb
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\obj\Debug\перемещать файлы.csprojResolveAssemblyReference.cache
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\obj\Debug\перемещать файлы.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\obj\Debug\перемещать файлы.exe
+C:\Users\Asus\source\repos\Copy FIle\перемещать файлы\obj\Debug\перемещать файлы.pdb

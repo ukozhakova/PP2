@@ -1,6 +1,0 @@
-C:\Users\Asus\source\repos\Triangle\Triangle\bin\Debug\Triangle.exe.config
-C:\Users\Asus\source\repos\Triangle\Triangle\bin\Debug\Triangle.exe
-C:\Users\Asus\source\repos\Triangle\Triangle\bin\Debug\Triangle.pdb
-C:\Users\Asus\source\repos\Triangle\Triangle\obj\Debug\Triangle.csproj.CoreCompileInputs.cache
-C:\Users\Asus\source\repos\Triangle\Triangle\obj\Debug\Triangle.exe
-C:\Users\Asus\source\repos\Triangle\Triangle\obj\Debug\Triangle.pdb

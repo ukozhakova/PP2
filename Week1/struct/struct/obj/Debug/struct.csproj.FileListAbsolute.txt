@@ -1,7 +1,0 @@
-C:\Users\Asus\source\repos\struct\struct\bin\Debug\@struct.exe.config
-C:\Users\Asus\source\repos\struct\struct\bin\Debug\@struct.exe
-C:\Users\Asus\source\repos\struct\struct\bin\Debug\@struct.pdb
-C:\Users\Asus\source\repos\struct\struct\obj\Debug\struct.csprojResolveAssemblyReference.cache
-C:\Users\Asus\source\repos\struct\struct\obj\Debug\struct.csproj.CoreCompileInputs.cache
-C:\Users\Asus\source\repos\struct\struct\obj\Debug\@struct.exe
-C:\Users\Asus\source\repos\struct\struct\obj\Debug\@struct.pdb

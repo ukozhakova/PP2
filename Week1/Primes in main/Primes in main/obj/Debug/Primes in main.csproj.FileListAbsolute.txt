@@ -1,7 +1,0 @@
-C:\Users\Asus\source\repos\Primes in main\Primes in main\bin\Debug\Primes in main.exe.config
-C:\Users\Asus\source\repos\Primes in main\Primes in main\bin\Debug\Primes in main.exe
-C:\Users\Asus\source\repos\Primes in main\Primes in main\bin\Debug\Primes in main.pdb
-C:\Users\Asus\source\repos\Primes in main\Primes in main\obj\Debug\Primes in main.csprojResolveAssemblyReference.cache
-C:\Users\Asus\source\repos\Primes in main\Primes in main\obj\Debug\Primes in main.csproj.CoreCompileInputs.cache
-C:\Users\Asus\source\repos\Primes in main\Primes in main\obj\Debug\Primes in main.exe
-C:\Users\Asus\source\repos\Primes in main\Primes in main\obj\Debug\Primes in main.pdb

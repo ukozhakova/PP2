@@ -1,0 +1,7 @@
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\bin\Debug\Complex Numbers.exe.config
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\bin\Debug\Complex Numbers.exe
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\bin\Debug\Complex Numbers.pdb
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\obj\Debug\Complex Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\obj\Debug\Complex Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\obj\Debug\Complex Numbers.exe
+C:\Users\Asus\source\repos\Complex Numbers\Complex Numbers\obj\Debug\Complex Numbers.pdb

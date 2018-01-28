@@ -1,0 +1,7 @@
+c:\users\asus\source\repos\Complex\Complex\bin\Debug\Complex.exe.config
+c:\users\asus\source\repos\Complex\Complex\bin\Debug\Complex.exe
+c:\users\asus\source\repos\Complex\Complex\bin\Debug\Complex.pdb
+c:\users\asus\source\repos\Complex\Complex\obj\Debug\Complex.csprojResolveAssemblyReference.cache
+c:\users\asus\source\repos\Complex\Complex\obj\Debug\Complex.csproj.CoreCompileInputs.cache
+c:\users\asus\source\repos\Complex\Complex\obj\Debug\Complex.exe
+c:\users\asus\source\repos\Complex\Complex\obj\Debug\Complex.pdb

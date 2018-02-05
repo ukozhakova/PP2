@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Far_Manager 
+namespace Far_Manager
 {
     enum FarMode
     {
@@ -15,6 +15,7 @@ namespace Far_Manager
 
     class FAR
     {
+       
         Stack<Layer> layerHistory = new Stack<Layer>();
         Layer activeLayer;
         FarMode mode = FarMode.Explorer;
@@ -26,6 +27,7 @@ namespace Far_Manager
 
         public void Draw()
         {
+         
             switch (mode)
             {
                 case FarMode.Explorer:
@@ -41,15 +43,17 @@ namespace Far_Manager
                 default:
                     break;
             }
-
+          
             DrawStatusBar();
+          
         }
+      
 
-        private void DrawStatusBar()
+private void DrawStatusBar()
         {
-            Console.SetCursorPosition(4, 38);
+            Console.SetCursorPosition(14, 38);
             Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.White;                                    
             Console.WriteLine(mode);
         }
 
@@ -87,14 +91,25 @@ namespace Far_Manager
             }
         }
 
+
         public void DrawExplorer()
         {
+           
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
+    
+                Console.SetCursorPosition(21, 0);
+                Console.BackgroundColor = ConsoleColor.Gray;
+                Console.ForegroundColor = ConsoleColor.Black;
 
+                Console.WriteLine("Type           Last Access Time        Last Write Time");
+
+            Console.SetCursorPosition(0, 1);
             for (int i = 0; i < activeLayer.items.Count; ++i)
             {
+
+
                 if (i == activeLayer.index)
                 {
                     Console.BackgroundColor = ConsoleColor.Cyan;
@@ -106,7 +121,7 @@ namespace Far_Manager
 
                 if (activeLayer.items[i].GetType() == typeof(DirectoryInfo))
                 {
-                   
+
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 else
@@ -122,21 +137,21 @@ namespace Far_Manager
                 {
                     Console.Write(activeLayer.items[i].Name.Remove(17, activeLayer.items[i].Name.Length - 17) + "...");
                 }
+                
+                    for (int j = 1; j <= 20 - activeLayer.items[i].Name.Length; ++j)
+                    {
+                        Console.Write(' ');
+                    }
 
-                for (int j = 1; j <= 20 - activeLayer.items[i].Name.Length; ++j)
-                {
-                    Console.Write(' ');
-                }
-
-                Console.WriteLine('|' + "{2} {1} {0}",activeLayer.items[i].LastAccessTime,activeLayer.items[i].LastWriteTime, activeLayer.items[i].Attributes );
-               
+                    Console.WriteLine('|' + "{2} {1} {0}", activeLayer.items[i].LastAccessTime, activeLayer.items[i].LastWriteTime, activeLayer.items[i].Attributes);
+                
             }
-    }
-
-        public void Process(ConsoleKeyInfo pressedKey)
+        }
+        public void Process(ConsoleKeyInfo mykey)
         {
-            switch (pressedKey.Key)
+            switch (mykey.Key)
             {
+               
                 case ConsoleKey.UpArrow:
                     activeLayer.Process(-1);
                     break;

@@ -1,20 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
-namespace Complex_Numbers
+namespace XML 
 {
-	class Complex
+    [Serializable]
+	public class Complex
 	{
-		public int x, y; //my variables will be in the form x+yi
+        public int x;
+        [NonSerialized] 
+        public int y; //my variables will be in the form x+yi
 
 		public Complex(int x, int y) //constructor
 		{
 			this.x = x; //присваиваю значения
 			this.y = y;
 		}
+        public Complex ()
+        {
+
+        }
 
 		public static Complex operator +(Complex c1, Complex c2)
 		{
@@ -23,12 +32,13 @@ namespace Complex_Numbers
 			Complex n = new Complex(a, b); //new complex number
 			return n;
 		}
-		public static Complex operator *(Complex c1, Complex c2)
-		{
-			int a = (c1.x* c2.x) - (c1.y*c2.y);  //new variable, responding for part of number without i
-			int b = (c1.x * c2.y) + (c2.x*c1.y); //new variable, responding for part of number with i
-			Complex m = new Complex(a, b);
-			return m;
+        
+        public static Complex operator *(Complex c1, Complex c2)
+        { 
+        int a = (c1.x* c2.x) - (c1.y*c2.y);  //new variable, responding for part of number without i
+		int b = (c1.x * c2.y) + (c2.x*c1.y); //new variable, responding for part of number with i
+		Complex m = new Complex(a, b);
+        return m;
 		}
 
 		public override string ToString() //переписываю метод
@@ -38,17 +48,53 @@ namespace Complex_Numbers
 	}
 	class Program
 	{
-		static void Main(string[] args)
+        static void F1(Complex a)
+        {
+            FileStream fs = new FileStream(@"maks1.xml", FileMode.OpenOrCreate, FileAccess.Write);
+            XmlSerializer xs = new XmlSerializer(typeof(Complex));
+            try
+            {
+                xs.Serialize(fs, a);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                fs.Close();
+            }
+            Console.WriteLine("Done");
+        }
+        static void F2()
+        {
+            FileStream fs = new FileStream(@"maks.xml", FileMode.Open, FileAccess.Read);
+            XmlSerializer xs = new XmlSerializer(typeof(Complex));
+            try
+            {
+                Complex a = xs.Deserialize(fs) as Complex;
+                Console.WriteLine(a);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+
+            }
+            finally
+            {
+                fs.Close();
+            }
+        }
+        static void Main(string[] args)
 		{
 			Complex c1 = new Complex(3, 5);
 			Complex c2 = new Complex(2, 4);
 			Complex sum = c1 + c2;
-			Complex product = c1 * c2;
-			Console.WriteLine("sum of 2 numbers is " + sum);
-			Console.WriteLine("product of 2 numbers is " + product);
+            Complex product = c1 * c2;
+            F1(sum);
+            F1(product);
+            F2();
+            
 		}
 	}
 }
-/* 3+5i + 2+4i = 5 + 9i
- * (3 + 5i)*(2 + 4i) = 6-20 + 22i
- * */

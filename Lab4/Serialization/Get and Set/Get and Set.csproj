@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2CB4F21C-DF3E-4846-BA87-4EACCA293928}</ProjectGuid>
+    <ProjectGuid>{07C3C473-A8FB-40A7-B32F-A9F0E3A828A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FarManager</RootNamespace>
-    <AssemblyName>FarManager</AssemblyName>
+    <RootNamespace>Get_and_Set</RootNamespace>
+    <AssemblyName>Get and Set</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

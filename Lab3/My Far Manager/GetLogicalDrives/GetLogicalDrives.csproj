@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C0D4E8EC-3C1D-408D-89BE-7956223F85BD}</ProjectGuid>
+    <ProjectGuid>{9A0CE29D-6557-4603-9C86-6CE13EE0D23F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Complex_Numbers</RootNamespace>
-    <AssemblyName>Complex Numbers</AssemblyName>
+    <RootNamespace>GetLogicalDrives</RootNamespace>
+    <AssemblyName>GetLogicalDrives</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\My Far Manager\Layer.cs">
+      <Link>Layer.cs</Link>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="maks.xml" />
-    <Content Include="maks1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
